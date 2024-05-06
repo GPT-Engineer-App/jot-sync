@@ -1,4 +1,4 @@
-import { Box, Button, Container, Flex, Input, Text, useDisclosure, VStack, SimpleGrid, useColorModeValue, IconButton, Tag, TagLabel, TagCloseButton, useColorMode, Menu, MenuButton, MenuItem, MenuList, IconButton } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Input, Text, useDisclosure, VStack, SimpleGrid, useColorModeValue, IconButton, Tag, TagLabel, TagCloseButton, useColorMode, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { useState } from "react";
 import { FaTrash, FaPencilAlt, FaPlus, FaPalette, FaTag } from "react-icons/fa";
 
@@ -65,7 +65,7 @@ const Index = () => {
     setInput("");
   };
 
-  const deleteNote = (id) => {
+  the deleteNote = (id) => {
     setNotes(notes.filter(note => note.id !== id));
   };
 
